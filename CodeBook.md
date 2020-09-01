@@ -31,11 +31,11 @@ Referring to features_info.txt the column names were changed using regex(regular
 
 The first 6 column names of the 563 variables(features) after calling gsub():
 
-             Before                                        After
-
-1 tBodyAcc-mean()-X                  TimeBodyAccelarometerMean.X
-2 tBodyAcc-mean()-Y                  TimeBodyAccelarometerMean.Y
-3 tBodyAcc-mean()-Z                  TimeBodyAccelarometerMean.Z
-4  tBodyAcc-std()-X    TimeBodyAccelarometerStandard.deviation.X
-5  tBodyAcc-std()-Y    TimeBodyAccelarometerStandard.deviation.Y
-6  tBodyAcc-std()-Z    TimeBodyAccelarometerStandard.deviation.Z
+|No|            Before|                                       After|
+|--|------------------|--------------------------------------------|
+|1 |tBodyAcc-mean()-X |                 TimeBodyAccelarometerMean.X|
+|2 |tBodyAcc-mean()-Y |                 TimeBodyAccelarometerMean.Y|
+|3 |tBodyAcc-mean()-Z |                 TimeBodyAccelarometerMean.Z|
+|4 | tBodyAcc-std()-X |   TimeBodyAccelarometerStandard.deviation.X|
+|5 | tBodyAcc-std()-Y |   TimeBodyAccelarometerStandard.deviation.Y|
+|6 | tBodyAcc-std()-Z |   TimeBodyAccelarometerStandard.deviation.Z|

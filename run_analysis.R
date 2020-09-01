@@ -42,7 +42,7 @@ mean_data = grep("mean()" ,colnames(merged_data))
 std_data = grep("std()" ,colnames(merged_data))
 
 pattern = c("^t", "^f", "Acc", "Gyro", "Mag", "-mean[(][)]", "-std[(][)]", "-mad[(][)]", "-max[(][)]", "-min[(][)]", "-sma[(][)]", "-energy[(][)]", "-iqr[(][)]", "-entropy[(][)]", "-arCoeff[(][)]", "-correlation[(][)]", "-maxInds", "-meanFreq[(][)]", "-skewness[(][)]", "-kurtosis[(][)]", "-bandsEnergy[(][)]", "-angle[(][)]", "Body", "Gravity")
-replacement = c("Time", "Frequency", "Accelarometer", "Gyroscope", "Magnitude", "Mean", "Standard deviation", "Median absolute deviation", "Maximum", "Minimum", "Signal magnitude area", "Energy measure", "Interquartile range", "Signal entropy", "Autorregresion coefficient", "Correlation coefficient", "Largest index", "Mean frequency", "Skewness", "Kurtosis", "Bands energy", "Angle", "Body", "Gravity")
+replacement = c("Time", "Frequency", "Accelarometer", "Gyroscope", "Magnitude", "Mean", "Standard deviation", "Median absolute deviation", "Maximum", "Minimum", "Signal magnitude area", "Energy measure", "Interquartile range", "Signal entropy", "Autoregression coefficient", "Correlation coefficient", "Largest index", "Mean frequency", "Skewness", "Kurtosis", "Bands energy", "Angle", "Body", "Gravity")
 c = colnames(merged_data)
 i = 1
 while(i <= length(pattern)){c = gsub(pattern[i], replacement[i], c)

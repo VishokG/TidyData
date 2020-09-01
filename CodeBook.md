@@ -16,7 +16,7 @@ Referring to features_info.txt the column names were changed using regex(regular
 |12|      -energy[(][)]|             Energy measure|
 |13|         -iqr[(][)]|        Interquartile range|
 |14|     -entropy[(][)]|             Signal entropy|
-|15|     -arCoeff[(][)]| Autorregresion coefficient|
+|15|     -arCoeff[(][)]| Autoregression coefficient|
 |16| -correlation[(][)]|    Correlation coefficient|
 |17|           -maxInds|              Largest index|
 |18|    -meanFreq[(][)]|             Mean frequency|

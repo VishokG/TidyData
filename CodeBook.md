@@ -29,7 +29,7 @@ Referring to features_info.txt the column names were changed using regex(regular
 
 (* has white space)
 
-The first 6 column names of the 563 variables(features) after calling gsub():
+The first 6 of the 563 variables(features) after calling gsub():
 
 |No|            Before|                                       After|
 |--|------------------|--------------------------------------------|
